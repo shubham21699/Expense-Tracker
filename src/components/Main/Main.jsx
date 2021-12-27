@@ -1,7 +1,8 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@material-ui/core';
 import { CallMissedSharp } from '@material-ui/icons';
-import useStyles from './styles';
+import useStyles from './mainStyles';
+import Form from './Form/Form';
 
 const Main = () => {
     const classes = useStyles();
@@ -18,7 +19,7 @@ const Main = () => {
                     Try saying: Add income for $100 in Category salary for Monday.
                 </Typography>
                 <Divider />
-                {/* Form */}
+                <Form />
             </CardContent>
             <CardContent className={classes.cartContent}>
                 <Grid container spacing={2} >
