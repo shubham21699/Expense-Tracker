@@ -18,7 +18,9 @@ After successfully entrying a transaction, a popup will appear showing its confi
 ![image](https://user-images.githubusercontent.com/71596140/147655810-ec1bf100-8188-49f6-a039-c4e22dbfc657.png)
 
 ### Mobile View:
+<p align="center" >
 <img width="576" alt="Screenshot 2021-12-29 at 4 41 30 PM" src="https://user-images.githubusercontent.com/71596140/147656450-f2041f56-1709-4a80-861d-e92f0fdb193d.png">
 <br />
 <br />
 <img width="586" alt="Screenshot 2021-12-29 at 4 42 06 PM" src="https://user-images.githubusercontent.com/71596140/147656498-4f142c04-ad00-4d10-b3cc-b7c3b01f3f16.png">
+</p>
