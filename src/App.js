@@ -5,6 +5,7 @@ import useStyles from './styles';
 import Main from './components/Main/Main';
 import { PushToTalkButton, PushToTalkButtonContainer, ErrorPanel } from '@speechly/react-ui';
 import { SpeechState, useSpeechContext } from '@speechly/react-client';
+import Navbar from './components/Navbar';
 
 function App() {
   const classes = useStyles();
@@ -21,8 +22,11 @@ function App() {
 
   }, [speechState]);
 
+  
+
   return (
     <div>
+      <Navbar style={{ boxShadow: '0 30px 40px rgba(63, 81, 181, 0.1)' }} />
       <Grid className={classes.grid} container spacing={0} alignItems='center' justify='center' style={{ height: '100vh' }}>
         <Grid item xs={12} sm={4} className={classes.mobile}>
           <Details title="Income" />
